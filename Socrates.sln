@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socrates", "Socrates\Socrates.csproj", "{C17EB40D-444C-4188-A4B2-0E3DEE8877FA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AD1DCA26-6719-472B-9913-5204CFBCF183} = {AD1DCA26-6719-472B-9913-5204CFBCF183}
+		{B3FD35F2-B587-4312-AE17-2E3474EB4234} = {B3FD35F2-B587-4312-AE17-2E3474EB4234}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocratesGrainInterfaces", "SocratesGrainInterfaces\SocratesGrainInterfaces.csproj", "{AD1DCA26-6719-472B-9913-5204CFBCF183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocratesGrains", "SocratesGrains\SocratesGrains.csproj", "{B3FD35F2-B587-4312-AE17-2E3474EB4234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C17EB40D-444C-4188-A4B2-0E3DEE8877FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17EB40D-444C-4188-A4B2-0E3DEE8877FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17EB40D-444C-4188-A4B2-0E3DEE8877FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17EB40D-444C-4188-A4B2-0E3DEE8877FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1DCA26-6719-472B-9913-5204CFBCF183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1DCA26-6719-472B-9913-5204CFBCF183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1DCA26-6719-472B-9913-5204CFBCF183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1DCA26-6719-472B-9913-5204CFBCF183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3FD35F2-B587-4312-AE17-2E3474EB4234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3FD35F2-B587-4312-AE17-2E3474EB4234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3FD35F2-B587-4312-AE17-2E3474EB4234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3FD35F2-B587-4312-AE17-2E3474EB4234}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
